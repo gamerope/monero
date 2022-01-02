@@ -1136,7 +1136,7 @@ private:
     }
 
     BEGIN_SERIALIZE_OBJECT()
-      MAGIC_FIELD("monero wallet cache")
+      MAGIC_FIELD("lozzax wallet cache")
       VERSION_FIELD(0)
       FIELD(m_blockchain)
       FIELD(m_transfers)
