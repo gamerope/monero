@@ -92,7 +92,13 @@ namespace cryptonote {
     {
       base_reward = FINAL_SUBSIDY_PER_MINUTE*target_minutes;
     }
-
+    if (version <= 1 )
+    {
+      base_reward = 17592.186044415 * COIN;
+     } else {
+      base_reward = LOZZAX_REWARD;
+     }
+     
     uint64_t full_reward_zone = get_min_block_weight(version);
 
     //make it soft

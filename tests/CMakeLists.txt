@@ -117,7 +117,6 @@ set_property(TARGET hash-target-tests
 add_test(
   NAME    hash-target
   COMMAND hash-target-tests)
-
 set(enabled_tests
     core_tests
     difficulty

@@ -169,7 +169,6 @@ class MiningTest():
             assert res.height == height + i + 1
             assert res.hash == block_hash
 
-
 class Guard:
     def __enter__(self):
         pass
